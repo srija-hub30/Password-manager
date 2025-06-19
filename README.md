@@ -32,7 +32,7 @@ Delete: Remove credentials from the vault.
 🔐 Security Features
 1. Client-side Encryption 
  Encrypt all credentials before storing
-Derive the encryption key from the master password using PBKDF2 or Argon2
+Derive the encryption key from the master password 
 Use a random, per-user salt stored unencrypted in localStorage
 
 2. No Plaintext Password Storage
