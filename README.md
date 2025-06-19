@@ -30,7 +30,7 @@ Delete: Remove credentials from the vault.
 
 
 🔐 Security Features
-1. Client-side Encryption (AES-256 + PBKDF2 / Argon2)
+1. Client-side Encryption 
  Encrypt all credentials before storing
 Derive the encryption key from the master password using PBKDF2 or Argon2
 Use a random, per-user salt stored unencrypted in localStorage
@@ -54,7 +54,7 @@ Edit
   }
 }
 4. Master Password Hashing & Authentication
-Option to store a hashed master password using SHA-256 + salt
+Option to store a hashed master password 
 Alternatively, validate the password by attempting to decrypt the vault
 
 5. Session Management
